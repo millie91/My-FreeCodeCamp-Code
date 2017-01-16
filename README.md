@@ -9,8 +9,7 @@ https://www.freecodecamp.com/millie91
 ### Completed
 1. HTML and CSS
 2. Responsive Design with Bootstrap
-3. jQuery
-4. Basic JavaScript
-5. Ruby on Rails
-6. Git
-7. Get Started with Free Code Camp
+3. Gear up for Success
+4. jQuery
+5. Basic JavaScript
+
