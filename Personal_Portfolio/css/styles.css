@@ -1,0 +1,466 @@
+@import url(https://fonts.googleapis.com/css?family=Exo);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: none;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+
+/***** HEAD SECTION *****/
+.navbar {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: none;
+  font-variant: small-caps;
+  background: url('https://static1.squarespace.com/static/571bd6329f7266bb8a3fd6b3/t/5761a3a9b09f9575d9b5c0bc/1466016685574/Netword_Gradient%5B1%5D.jpg?format=2500w');
+} 
+
+.navbar-brand h1 {
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px #555;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+  border-radius: 5px;
+  color: #555;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear:both;
+  margin-top: -40px;
+}
+
+.navbar-header button.navbar-toggle:hover {
+  background: #555;
+}
+/***** HOME SECTION *****/
+#home {
+  background: url('http://g71hmy0lh6aenyt3.zippykid.netdna-cdn.com/wp-content/uploads/2016/05/woman-at-computer.jpg') 50% 0 no-repeat fixed;
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+
+#home button {
+  background-color: rgba(0, 0, 20, .25);
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#home button:hover {
+  background: #fff;
+  color: rgba(0, 0, 20, .90);
+}
+
+#main-button.span {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+#home h1 {
+  color: #fff;
+  margin-top: 20%;
+  letter-spacing: 10px;
+  padding-top: 10px;
+  font-variant: small-caps;
+  font-family: 'Exo', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#home h4 {
+  color: #fff;
+  letter-spacing: 10px;
+  font-variant: small-caps;
+  padding: 20px 10px;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #222;
+  
+}
+
+.btn-group a {
+  color: #fff;
+}
+
+/***** ABOUT SECTION *****/
+#about {
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+  background: url('http://www.alchepist.com/WebContent/product/seo@alchepist.com_20150222163729/seo@alchepist.com_20150222163729.jpg') no-repeat fixed;
+}
+
+#about h2 {
+  margin-top: 10%;
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#about img {
+  border-radius: 20px;
+  border: 1px solid #fff;
+  max-width: 250px;
+}
+
+#about, #coder a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#about, #coder a:hover {
+  color: #4472ea;
+}
+
+#about p {
+  color: #fff;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+
+#about h4 {
+  color: #fff;
+  font-size: 20px;
+} 
+
+#about span {
+  color: #fff;
+  font-size: 20px;
+}
+
+#profile-photo img {
+  margin-bottom: 40px;
+}
+
+/***** PORTFOLIO SECTION *****/
+#portfolio {
+  background: url("http://cdn.paper4pc.com/images/bokeh-wallpaper-6.jpg");
+  margin-top: -20px;
+  min-height: 1000px;
+  background-position: center;
+  background-size: cover;
+}
+
+#portfolio h2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: #fff;
+  font-variant: small-caps;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#portfolio a:hover {
+  text-decoration: none;
+}
+
+#portfolio-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  border: 2px solid #222;
+  border-radius: 2px;
+  overflow: hidden;
+  background: url('https://s-media-cache-ak0.pinimg.com/736x/2c/b6/70/2cb670b6ddd8922a1c1b2fee4f6f758c.jpg') no-repeat;
+  background-position: center;
+}
+
+
+#portfolio-tile:hover {
+  box-shadow: 0 1px 5px 1px #222;
+}
+
+#portfolio-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  font-variant: small-caps;  
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.row h3 {
+  margin-top: 5%;
+  color: #fff;
+  text-shadow: 1px 1px 1px #222;
+}
+
+/***** CONTACT SECTION *****/
+#contact {
+  background: url("http://cdn.pcwallart.com/images/apple-computer-keyboard-wallpaper-3.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+#contact button {
+  background-color: rgba(0, 0, 20, .25);
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: block;
+  margin-right:-50px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#contact button:hover {
+  background: #fff;
+  color: rgba(0, 0, 20, .90);
+}
+
+#contact h2 {
+  color: #fff;
+  margin-top: 10%;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#contact h3 {
+  color: white;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#contact h3:hover {
+  color: #999;
+}
+
+#contact a:hover {
+  text-decoration: none;
+}
+
+.ms-bkd {
+  color: #ffffff;
+  padding: 10px;
+  margin: 150px;
+  border-radius: 10px;
+  background-color: rgba(25, 0, 0, .45);
+  word-wrap: break-word;
+}
+
+
+/***** FOOTER *****/
+footer {
+  background: url('https://static1.squarespace.com/static/571bd6329f7266bb8a3fd6b3/t/5761a3a9b09f9575d9b5c0bc/1466016685574/Netword_Gradient%5B1%5D.jpg?format=2500w');
+  height: auto;
+  padding: 15px 5px 15px 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #222;
+}
+
+footer a:hover {
+  color: #555;
+  text-decoration: none;
+}
+
+/*----- LARGE DEVICES -----*/
+@media (max-width: 1200px) {
+  
+  /* Portfolio Page */
+  #portfolio-tile {
+    width: 350px;
+    margin: 0 auto 15px;
+  }
+  #portfolio h3 {
+    margin-top: 20%;
+  }
+
+  /* Contact Page */
+  #contact h2, h3 {
+    font-size: 28px;
+  }
+
+  #contact h2 {
+    margin-top: 10%;
+  }
+  
+  .ms-bkd{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%; 
+  }
+}
+
+/*----- MEDIUM DEVICES -----*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  /* Home Page */
+  #home h1 {
+    font-size: 65px;
+  } 
+
+  /* Portfolio Page */
+  #portfolio-tile {
+    width: 310px;
+    margin: 0 auto 15px;
+  }
+
+  #portfolio h3 {
+    margin-top: 20%;
+  }
+
+  /* Contact Page */
+  #contact h2, h3 {
+    font-size: 28px;
+  }
+
+  #contact h2 {
+    margin-top: 10%;
+  }
+
+  #contact h3 {
+    margin-top: 5px;
+  }
+  
+  .ms-bkd{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%; 
+  }
+}
+
+/*----- SMALL DEVICES -----*/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  /* Home Page */
+  
+  
+  /* Portfolio Page */
+  #portfolio-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  
+  #portfolio h3 {
+    margin-top: 10%;
+  }
+
+  /* Contact Page */
+  #contact h2, h3 {
+    font-size: 25px;
+  }
+
+  #contact h3 {
+    margin-top: 0px;
+  }
+  
+  .ms-bkd{
+    margin-top: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%; 
+  }
+}
+
+/*----- XS DEVICES -----*/
+@media (min-width: 480px) and (max-width: 767px) {
+  
+  /* Navbar */
+  .navbar-header {
+    margin-top: 20px;
+  }
+  
+  .navbar-brand h1 {
+    margin-top: -5px;
+    font-size: 35px;
+  }
+  
+  /* Home Page */
+  
+
+  /* Portfolio Page */
+  #portfolio-tile, .row h3 {
+    width: 350px;
+    margin: 0 auto 15px;
+  }
+  
+  /* Contact Page */
+  #contact h2, h3 {
+    font-size: 22px;
+  }
+  
+  .ms-bkd{
+    margin: 20% 5%; 
+  }
+}
+
+/*----- SUPER EXTRA SMALL DEVICES -----*/
+@media (max-width: 479px) {
+  
+  /* Navbar */
+  .navbar-brand {
+    margin-bottom: 10px;
+  }
+  
+  .navbar-brand h1 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  /* Home Page */
+
+
+  /* Portfolio Page */
+  #portfolio-tile {
+    width: 340px;
+    margin: 0 auto 15px;
+  }
+  
+  /* Contact Page */
+  #contact h2, h3 {
+    font-size: 20px;
+  }
+  
+  .ms-bkd{
+    margin: 20% 5%; 
+  }
+}
