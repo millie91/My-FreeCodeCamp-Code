@@ -1,4 +1,4 @@
-# MY CODE FROM BOOTCAMP FREECODECAMP
+# MY CODE FROM FREECODECAMP
 
 https://www.freecodecamp.com/millie91
 
