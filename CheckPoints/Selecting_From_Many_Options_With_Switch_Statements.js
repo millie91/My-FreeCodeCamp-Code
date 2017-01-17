@@ -23,6 +23,13 @@ Write a switch statement which tests val and sets answer for the following condi
 3 - "gamma"
 4 - "delta"
 
+caseInSwitch(1) should have a value of "alpha"
+caseInSwitch(2) should have a value of "beta"
+caseInSwitch(3) should have a value of "gamma"
+caseInSwitch(4) should have a value of "delta"
+You should not use any if or else statements
+You should have at least 3 break statements
+
 Code by Milica Sucevic
 milicasucevic@gmail.com
 https://www.freecodecamp.com/millie91
@@ -54,3 +61,4 @@ function caseInSwitch(val) {
 
 // Change this value to test
 caseInSwitch(1);
+

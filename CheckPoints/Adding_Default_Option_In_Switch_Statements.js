@@ -28,13 +28,11 @@ switchOfStuff(4) should have a value of "stuff"
 You should not use any if or else statements
 You should have at least 3 break statements
 
-
 Code by Milica Sucevic
 milicasucevic@gmail.com
 https://www.freecodecamp.com/millie91
 
 */
-
 
 function switchOfStuff(val) {
   var answer = "";
@@ -61,3 +59,4 @@ function switchOfStuff(val) {
 
 // Change this value to test
 switchOfStuff(1);
+
