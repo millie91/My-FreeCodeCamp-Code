@@ -13,14 +13,13 @@ Modify the function checkObj to test myObj for checkProp. If the property is fou
 
 checkObj("gift") should return "pony".
 checkObj("pet") should return "kitten".
-checkObj("house") should return "Not Found"
+checkObj("house") should return "Not Found".
 
 Code by Milica Sucevic
 milicasucevic@gmail.com
 https://www.freecodecamp.com/millie91
 
 */
-
 
 // Setup
 var myObj = {
